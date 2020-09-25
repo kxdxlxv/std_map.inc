@@ -78,9 +78,9 @@ Inserts an element into the map.
 
 ## TODO
 
-1. Support of strings & arrays *\[ maybe \]*
-1. Support of SHA256_PassHash *\[ SAMP \]*
-1. Rewrite to C++
+1. Support of strings & arrays; *\[ maybe \]*
+1. Support of SHA256_PassHash; *\[ SAMP \]*
+1. Rewrite to C++;
 
 ## License
 
