@@ -110,6 +110,7 @@ Inserts an element into the map.
 1. Support of SHA256_PassHash; *\[ SAMP \]*
 1. Rewrite to C++;
 1. Correct implementation of CRC32;
+1. Create tests;
 
 ## License
 
