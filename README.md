@@ -1,6 +1,34 @@
 # STD Map include
 
-Simple hash map implemented in Pawn.
+Simple hash map implemented in Pawn, with CRC32 as hash function.
+
+## Usage
+
+```
+new map[STD_MAP];
+map_clear(map); // im not sure is arrays zero filled at initialization or not
+
+map_set(map, "a", 10);
+map_set(map, "b", 10);
+
+new a = map_get(map, "a");
+
+if (map_error()) {
+  // ...
+}
+
+new b = map_get(map, "b");
+
+if (map_error()) {
+   // ...
+}
+
+printf("%d + %d = %d", a, b, a + b);
+
+map_remove(map, "a");
+map_remove(map, "b");
+
+```
 
 ## API
 
@@ -81,6 +109,7 @@ Inserts an element into the map.
 1. Support of strings & arrays; *\[ maybe \]*
 1. Support of SHA256_PassHash; *\[ SAMP \]*
 1. Rewrite to C++;
+1. Correct implementation of CRC32;
 
 ## License
 
