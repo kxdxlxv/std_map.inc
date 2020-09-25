@@ -4,7 +4,7 @@ Simple hash map implemented in Pawn, with CRC32 as hash function.
 
 ## Usage
 
-```
+```pawn
 new map[STD_MAP];
 map_clear(map); // im not sure is arrays zero filled at initialization or not
 
