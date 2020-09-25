@@ -57,7 +57,7 @@ static crc32(const string[], len)
 stock map_clear(map[STD_MAP])
 {
   for (new i = 0; i < MAP_MAX_KEYS; i++) {
-    map[_stdmap_exists]{i} = false;
+    map[_stdmap_exists][i] = false;
   }
 
   STDMAP_HAS_ERROR = 0;
